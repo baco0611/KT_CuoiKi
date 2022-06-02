@@ -125,6 +125,9 @@ body {
   padding-right: 20px;
   padding-top: 40px;
 }
+.main-content {
+  padding: 15px 0;
+}
 .main-content-header {
   display: flex;
   width: 100%;
@@ -146,6 +149,13 @@ body {
 .main-content-inf span {
   font-style: italic;
 }
+.main-content-project {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0;
+}
 .main-content-score {
   padding: 20px 0;
 }
@@ -161,6 +171,95 @@ body {
 .main-content-score td {
   border: 1px solid white;
   padding: 5px;
+}
+.main-content-pic {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 100px 100px 100px;
+}
+
+.project {
+  width: 250px;
+  height: 200px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+}
+.project img {
+  width: 230px;
+}
+.project-info {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: black;
+  font-size: 12px;
+}
+.project-info span {
+  font-weight: 700;
+  font-style: italic;
+}
+.project-info a {
+  display: inline-block;
+  color: black;
+}
+
+.pic {
+  height: 100%;
+  width: 100%;
+  border: solid 1px white;
+}
+
+.pic1 {
+  grid-row-start: span 3;
+  background-image: url(../images/NCTL_Beach1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.pic2 {
+  grid-column-start: span 2;
+  background-image: url(../images/DiepAnhDao.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.pic3 {
+  background-image: url(../images/Papa.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.pic4 {
+  background-image: url(../images/DCMB_QT.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.pic5 {
+  background-image: url(../images/DCMB_QT_CT.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.pic6 {
+  grid-row-start: span 2;
+  background-image: url(../images/NCTL_Beach2.jpg);
+  background-size: cover;
+  background-position: top;
+}
+
+.pic7 {
+  background-image: url(../images/Khoi_Sac.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.pic8 {
+  background-image: url(../images/2HFW.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 /*# sourceMappingURL=style.css.map */
